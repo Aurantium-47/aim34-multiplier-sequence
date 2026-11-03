@@ -1,0 +1,19 @@
+AIMFamilyGrowthDraft.lean:153:6: error: tactic 'apply' failed, failed to unify
+  ?f ?a ≤ ∑ x ∈ ?s, ?f x
+with
+  shiftedRadicalPower m n / c ^ n ≤ ∑ k ∈ Finset.range N, shiftedRadicalPower m k / c ^ k
+m : ℝ
+hm : 0 < m
+c : ℝ
+hc : 1 < c
+hc_pos : 0 < c
+N : ℕ
+hN : ∀ (n : ℕ), N ≤ n → shiftedRadicalPower m n ≤ Real.exp (Real.log c * m) * c ^ n
+S : ℝ := ∑ k ∈ Finset.range N, shiftedRadicalPower m k / c ^ k
+hS_nonneg : 0 ≤ S
+C : ℝ := Real.exp (Real.log c * m) + S
+hC_pos : 0 < C
+n : ℕ
+hn : ¬N ≤ n
+hn_mem : n ∈ Finset.range N
+⊢ shiftedRadicalPower m n / c ^ n ≤ ∑ k ∈ Finset.range N, shiftedRadicalPower m k / c ^ k

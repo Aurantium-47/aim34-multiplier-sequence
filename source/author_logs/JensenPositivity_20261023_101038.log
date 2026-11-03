@@ -1,0 +1,25 @@
+JensenPositivity.lean:10:56: error: unsolved goals
+a : ℕ → ℝ
+⊢ 2 = C 2 ∨ a 1 = 0
+JensenPositivity.lean:21:4: warning: try 'simp at hc' instead of 'simpa using hc'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+JensenPositivity.lean:42:2: error: linarith failed to find a contradiction
+case neg.inr.intro.a
+a : ℕ → ℝ
+h2 : ¬a 2 = 0
+hp : jensen a 2 ≠ 0
+hr : ∀ (z : ℂ), (aeval z) (jensen a 2) = 0 → z.im = 0
+p : ℂ[X] := map (algebraMap ℝ ℂ) (jensen a 2)
+hc : p.coeff 2 ≠ 0
+hd : 0 < p.degree
+z : ℂ
+hz : p.IsRoot z
+hza : (aeval z) (jensen a 2) = 0
+hi : z.im = 0
+hze : z = ↑z.re
+he : (algebraMap ℝ ℂ) (eval z.re (jensen a 2)) = 0
+hreal : a 0 + a 1 * 2 * z.re + a 2 * z.re ^ 2 = 0
+hm : (fun x => a 2 * x) (a 0 + a 1 * 2 * z.re + a 2 * z.re ^ 2) = (fun x => a 2 * x) 0
+a✝ : a 0 * a 2 > a 1 ^ 2
+⊢ False failed
+JensenPositivity.lean:63:63: error: simp made no progress

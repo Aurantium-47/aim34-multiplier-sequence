@@ -1,0 +1,8 @@
+ForwardDifferenceSign.lean:14:10: error: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  r.succ
+case succ
+a : ℕ → ℝ
+ha : AllJensenRealRooted a
+r : ℕ
+ih : AllJensenRealRooted (iteratedDifference r a)
+⊢ AllJensenRealRooted (iteratedDifference (r + 1) a)

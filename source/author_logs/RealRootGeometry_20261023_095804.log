@@ -1,0 +1,16 @@
+RealRootGeometry.lean:51:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+RealRootGeometry.lean:113:19: error: function expected at
+  derivative_C
+term has type
+  derivative (C ?m.25913) = 0
+RealRootGeometry.lean:116:2: warning: try 'simp at hneg' instead of 'simpa using hneg'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+RealRootGeometry.lean:125:10: error: unknown identifier 'map_derivative'
+RealRootGeometry.lean:128:18: error: unknown identifier 'map_derivative'
+RealRootGeometry.lean:128:4: error: type mismatch, term
+  hz
+after simplification has type
+  ∀ (z : ℂ), eval z (derivative (map (algebraMap ℝ ℂ) p)) = 0 → z.im = 0 : Prop
+but is expected to have type
+  ∀ (z : ℂ), (aeval z) (derivative p) = 0 → z.im = 0 : Prop

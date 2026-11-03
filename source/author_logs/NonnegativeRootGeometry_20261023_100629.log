@@ -1,0 +1,48 @@
+NonnegativeRootGeometry.lean:8:33: warning: try 'simp at hz' instead of 'simpa using hz'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+NonnegativeRootGeometry.lean:34:40: warning: try 'simp at hpos' instead of 'simpa using hpos'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+NonnegativeRootGeometry.lean:48:40: warning: try 'simp at hpos' instead of 'simpa using hpos'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+NonnegativeRootGeometry.lean:74:33: error: type mismatch, term
+  hz
+after simplification has type
+  (map (algebraMap ℝ ℂ) p).IsRoot a : Prop
+but is expected to have type
+  (aeval a) p = 0 : Prop
+NonnegativeRootGeometry.lean:77:52: error: tactic 'simp' failed, nested error:
+maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information
+NonnegativeRootGeometry.lean:82:80: error: unknown identifier 'h'
+NonnegativeRootGeometry.lean:66:54: error: unsolved goals
+case inr.refine_2
+p : ℝ[X]
+hc : ∀ (n : ℕ), 0 ≤ p.coeff n
+h0 : 0 < p.coeff 0
+hp : p ≠ 0
+hpmap : map (algebraMap ℝ ℂ) p ≠ 0
+hr : ∀ (z : ℂ), (aeval z) p = 0 → z.im = 0
+a : ℂ
+ha : a ∈ (map (algebraMap ℝ ℂ) p).roots
+hz : (map (algebraMap ℝ ℂ) p).IsRoot a
+hza : (aeval a) p = 0
+hi : a.im = 0
+hae : a = ↑a.re
+he : (algebraMap ℝ ℂ) (eval a.re p) = 0
+her : eval a.re p = 0
+h : ¬a.re < 0
+⊢ False
+NonnegativeRootGeometry.lean:99:41: error: unsolved goals
+p : ℝ[X]
+hr : RealRooted p
+hc : ∀ (n : ℕ), 0 ≤ p.coeff n
+h0 : 0 < p.coeff 0
+h1 : p.coeff 1 = 0
+q : ℂ[X] := map (algebraMap ℝ ℂ) p
+hp : p ≠ 0
+hq : q ≠ 0
+hs : ∀ a ∈ q.roots, a.re < Complex.re 0
+hne : ¬q.roots = 0
+ht : 0 < (eval 0 (derivative q) / eval 0 q).re
+⊢ (aeval 0) (derivative p) = 0

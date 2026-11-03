@@ -1,0 +1,4 @@
+FullAIM34.lean:33:12: error: ambiguous, possible interpretations 
+  _root_.not_imp.mp hp : RealRooted p ∧ ¬RealRooted (diagonal (shiftedRadicalPower m) p)
+  
+  Classical.not_imp.mp hp : RealRooted p ∧ ¬RealRooted (diagonal (shiftedRadicalPower m) p)

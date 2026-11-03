@@ -1,0 +1,6 @@
+JensenRootClosure.lean:60:2: error: type mismatch
+  realRooted_polar (N + 1) (jensen a (N + 1)) (jensen_natDegree_le a (N + 1)) (ha (N + 1))
+has type
+  RealRooted ((X + 1) * derivative (jensen a (N + 1)) - C ↑(N + 1) * jensen a (N + 1)) : Prop
+but is expected to have type
+  RealRooted ((X + 1) * derivative (jensen a (N + 1)) - C (↑N + 1) * jensen a (N + 1)) : Prop

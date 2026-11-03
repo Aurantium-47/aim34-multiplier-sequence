@@ -1,0 +1,12 @@
+PolarRealRooted.lean:87:46: error: ambiguous, possible interpretations 
+  _root_.div_eq_zero_iff : ?m.39669 / ?m.39670 = 0 ↔ ?m.39669 = 0 ∨ ?m.39670 = 0
+  
+  Polynomial.div_eq_zero_iff : ?m.39689 ≠ 0 → (?m.39688 / ?m.39689 = 0 ↔ degree ?m.39688 < degree ?m.39689)
+Try this: ring_nf
+PolarRealRooted.lean:99:11: error: unsolved goals
+case succ
+c : ℂ
+n : ℕ
+⊢ X * C c * C (1 + ↑n) * (1 + X) ^ n - X * C c * C ↑(1 + n) * (1 + X) ^ n +
+      (C c * C (1 + ↑n) * (1 + X) ^ n - C c * C ↑(1 + n) * (1 + X) ^ n) =
+    0

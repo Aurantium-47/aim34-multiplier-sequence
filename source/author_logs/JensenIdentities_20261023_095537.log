@@ -1,0 +1,11 @@
+JensenIdentities.lean:49:6: error: ring failed, ring expressions not equal
+a : ℕ → ℝ
+N n : ℕ
+hA : (↑N + 1) * ↑(N.choose (n + 1)) = ↑((N + 1).choose (n + 1 + 1)) * (↑n + 1 + 1)
+hB : (↑N + 1) * ↑(N.choose n) = ↑((N + 1).choose (n + 1)) * (↑n + 1)
+hC : ↑((N + 1).choose (n + 1)) = ↑(N.choose n) + ↑(N.choose (n + 1))
+⊢ ↑N * a (n + 1) * ↑(N.choose n) * 2 + a (n + 1 + 1) * ↑((N + 1).choose (n + 1 + 1)) +
+          a (n + 1 + 1) * ↑((N + 1).choose (n + 1 + 1)) * ↑n +
+        (-(a (n + 1 + 1) * ↑((N + 1).choose (n + 1 + 1)) * ↑(n + 1)) - a (n + 1) * ↑n * ↑((N + 1).choose (n + 1)) * 2) +
+      (a (n + 1) * ↑(N.choose n) * 2 - a (n + 1) * ↑((N + 1).choose (n + 1)) * 2) =
+    0

@@ -1,0 +1,1 @@
+FiniteDifferenceNewton.lean:25:10: error: unknown identifier 'sum_choose_succ_mul'
