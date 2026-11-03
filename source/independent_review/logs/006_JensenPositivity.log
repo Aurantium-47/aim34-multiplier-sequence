@@ -1,0 +1,2 @@
+REVIEW_REPLAY/source/JensenPositivity.lean:22:4: warning: try 'simp at hc' instead of 'simpa using hc'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`

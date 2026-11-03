@@ -1,0 +1,13 @@
+{
+  "module": "Mathlib.Analysis.SpecialFunctions.Sqrt",
+  "source_sha256": "ad181c568970d2f938d6a0cad953ec1dff35f56329389a61c654053237919952",
+  "olean_sha256": "7999045b48c5bdcf225fabcfe2aefdd9873cd0eb7a021048ba244e6663512099",
+  "exit_code": 0,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "exit_receipt_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+  "source_receipt_sha256": "026e9e53bbae3724433e3b485ee0dddb2190cf1d9608cc006862261ef92f37ce",
+  "source_receipt_file": "sqrt_closure_20261023T1014.json",
+  "build_log_file": "sqrt_build_20261023T1014.log",
+  "build_exit_file": "sqrt_build_20261023T1014.exit",
+  "note": "Original successful official pinned-source cache build; immutable author evidence copied for verification."
+}

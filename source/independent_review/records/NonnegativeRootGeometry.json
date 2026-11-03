@@ -1,0 +1,23 @@
+{
+  "module": "NonnegativeRootGeometry",
+  "source_sha256": "745714e0f65bd1a4b8a555e2ca28e6149dc8abddf8ad49f37dc26a09df934911",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/NonnegativeRootGeometry.olean",
+    "REVIEW_REPLAY/source/NonnegativeRootGeometry.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/005_NonnegativeRootGeometry.log",
+  "exit_code": 0,
+  "seconds": 2.441983938217163,
+  "log_sha256": "f902037f4ad9802b952070e014db006042fca5d4d469545e2a70e7e461bba0f8",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "6929c7b944f6fd6e9a40cc64b62a35bf6f259935aaaab41b492d38ef7a8fa70d"
+}

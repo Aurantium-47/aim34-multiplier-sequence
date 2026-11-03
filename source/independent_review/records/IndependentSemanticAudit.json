@@ -1,0 +1,23 @@
+{
+  "module": "IndependentSemanticAudit",
+  "source_sha256": "275296fe73ccd49e81cdb94b7ac26c22436b26ef9f445fe3630f9319f74ea42a",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/IndependentSemanticAudit.olean",
+    "REVIEW_REPLAY/source/IndependentSemanticAudit.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/023_IndependentSemanticAudit.log",
+  "exit_code": 0,
+  "seconds": 63.18188762664795,
+  "log_sha256": "020f5a6690a716c996732e896a74a08c9428313987ecca3b0d945c0800ba81fa",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "9cdc7c20b9d3660741056cc906b4224ba823dfcbd8e76777d9accfdf94698b34"
+}

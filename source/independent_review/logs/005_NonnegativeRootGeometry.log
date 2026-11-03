@@ -1,0 +1,6 @@
+REVIEW_REPLAY/source/NonnegativeRootGeometry.lean:8:33: warning: try 'simp at hz' instead of 'simpa using hz'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+REVIEW_REPLAY/source/NonnegativeRootGeometry.lean:34:40: warning: try 'simp at hpos' instead of 'simpa using hpos'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+REVIEW_REPLAY/source/NonnegativeRootGeometry.lean:48:40: warning: try 'simp at hpos' instead of 'simpa using hpos'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`

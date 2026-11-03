@@ -1,0 +1,23 @@
+{
+  "module": "PolarRealRooted",
+  "source_sha256": "f553bc896fee0f6be2a88ba82e736814c06a05fcfe31c1308498bd406fdde2fb",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/PolarRealRooted.olean",
+    "REVIEW_REPLAY/source/PolarRealRooted.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/003_PolarRealRooted.log",
+  "exit_code": 0,
+  "seconds": 4.2762346267700195,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "09bcda12ad1f32602db8ba82bebb9676dfbabe70a17779c6d6be5db86ca88176"
+}

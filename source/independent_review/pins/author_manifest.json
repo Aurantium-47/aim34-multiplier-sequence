@@ -1,0 +1,289 @@
+{
+  "status": "AUTHOR_PASS_INDEPENDENT_REVIEW_PENDING",
+  "scope": "AIM 2007 Problem 34, every positive real shift, both indexing conventions",
+  "lean": "4.19.0",
+  "mathlib": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "roots": [
+    "FullAIM34",
+    "AIM34Audit"
+  ],
+  "source_count": 22,
+  "files": [
+    {
+      "module": "AIM34Definitions",
+      "file": "sources/AIM34Definitions.lean",
+      "sha256": "e69e0c3d27db4550d5333a00c7a18058169d94097fcc11284999e7c956faa70b",
+      "bytes": 2464,
+      "imports": [
+        "Mathlib.Analysis.Complex.Polynomial.Basic",
+        "Mathlib.Analysis.SpecialFunctions.Pow.Real",
+        "Mathlib.Data.Nat.Choose.Basic"
+      ],
+      "origin_project": "aim34_jensen_lean"
+    },
+    {
+      "module": "JensenIdentities",
+      "file": "sources/JensenIdentities.lean",
+      "sha256": "a67d4768545b62ba6bfa2e6e33c8b0d5c40841fba7aa976a1c0ebe87e8ba48a1",
+      "bytes": 2094,
+      "imports": [
+        "AIM34Definitions",
+        "Mathlib.Tactic.LinearCombination",
+        "Mathlib.Tactic.Ring"
+      ],
+      "origin_project": "aim34_jensen_lean"
+    },
+    {
+      "module": "RealRootGeometry",
+      "file": "sources/RealRootGeometry.lean",
+      "sha256": "a1131b387e5777b5e231a973fd1f4f51e678fa795af57f0b66fb208b3f3eeab9",
+      "bytes": 5508,
+      "imports": [
+        "AIM34Definitions",
+        "Mathlib.Tactic.FieldSimp",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.LinearCombination",
+        "Mathlib.Tactic.Ring"
+      ],
+      "origin_project": "aim34_jensen_lean"
+    },
+    {
+      "module": "PolarRealRooted",
+      "file": "sources/PolarRealRooted.lean",
+      "sha256": "f553bc896fee0f6be2a88ba82e736814c06a05fcfe31c1308498bd406fdde2fb",
+      "bytes": 6832,
+      "imports": [
+        "RealRootGeometry",
+        "Mathlib.Algebra.Order.BigOperators.Group.Multiset"
+      ],
+      "origin_project": "aim34_jensen_lean"
+    },
+    {
+      "module": "JensenRootClosure",
+      "file": "sources/JensenRootClosure.lean",
+      "sha256": "af9f4a39a932f2465c1e547f91f8179086bd7f399f62b36928a1317c43c09a8e",
+      "bytes": 2280,
+      "imports": [
+        "JensenIdentities",
+        "PolarRealRooted"
+      ],
+      "origin_project": "aim34_jensen_lean"
+    },
+    {
+      "module": "NonnegativeRootGeometry",
+      "file": "sources/NonnegativeRootGeometry.lean",
+      "sha256": "745714e0f65bd1a4b8a555e2ca28e6149dc8abddf8ad49f37dc26a09df934911",
+      "bytes": 4871,
+      "imports": [
+        "JensenRootClosure"
+      ],
+      "origin_project": "aim34_jensen_lean"
+    },
+    {
+      "module": "JensenPositivity",
+      "file": "sources/JensenPositivity.lean",
+      "sha256": "e17ebda5ecda53a6a2ad8dd28c88bee3200e727ad9981358bb247d5a72373c67",
+      "bytes": 3775,
+      "imports": [
+        "NonnegativeRootGeometry",
+        "Lean.Elab.Tactic.Omega"
+      ],
+      "origin_project": "aim34_jensen_lean"
+    },
+    {
+      "module": "SequenceBounds",
+      "file": "sources/SequenceBounds.lean",
+      "sha256": "efa2e2e5b97224b736e56e31898506ba7bbf380acae27cd26af8a73eea9d836c",
+      "bytes": 11690,
+      "imports": [
+        "AIM34Definitions",
+        "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+        "Mathlib.Order.Monotone.Basic",
+        "Mathlib.Tactic.Linarith",
+        "Lean.Elab.Tactic.Omega",
+        "Mathlib.Tactic.Positivity",
+        "Mathlib.Tactic.Ring"
+      ],
+      "origin_project": "aim34_jensen_lean"
+    },
+    {
+      "module": "AIMFamilyGrowth",
+      "file": "sources/AIMFamilyGrowth.lean",
+      "sha256": "3dc1e59c50b28b6b1d5a362c48a9415356c71b74009624bf465e2706756d9de9",
+      "bytes": 6873,
+      "imports": [
+        "AIM34Definitions",
+        "Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.Positivity",
+        "Mathlib.Tactic.Ring"
+      ],
+      "origin_project": "aim34_jensen_lean"
+    },
+    {
+      "module": "FiniteDifferenceNewton",
+      "file": "sources/FiniteDifferenceNewton.lean",
+      "sha256": "0e36fcb3d72b5600275df956d1e2e366391d9982ac623613cc17e72cb663a3e3",
+      "bytes": 1196,
+      "imports": [
+        "AIM34Definitions",
+        "Mathlib.Data.Nat.Choose.Sum",
+        "Mathlib.Tactic.Ring"
+      ],
+      "origin_project": "aim34_jensen_lean"
+    },
+    {
+      "module": "ForwardDifferenceSign",
+      "file": "sources/ForwardDifferenceSign.lean",
+      "sha256": "2b16abc91259ae7939cc4fb65cb5d305c349c579825921e955ba67a55538337f",
+      "bytes": 1783,
+      "imports": [
+        "JensenPositivity",
+        "SequenceBounds",
+        "AIMFamilyGrowth",
+        "FiniteDifferenceNewton"
+      ],
+      "origin_project": "aim34_jensen_lean"
+    },
+    {
+      "module": "SchwarzHalfPlane",
+      "file": "sources/SchwarzHalfPlane.lean",
+      "sha256": "a95092d45879ee69688ccb1e5f95fe3b410e4c760ca21a67877f7fab3d13e24b",
+      "bytes": 5617,
+      "imports": [
+        "Mathlib.Analysis.Complex.Schwarz",
+        "Mathlib.Analysis.Analytic.IsolatedZeros",
+        "Mathlib.Tactic.FieldSimp",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.Positivity",
+        "Mathlib.Tactic.NormNum"
+      ],
+      "origin_project": "aim34_analytic_lean"
+    },
+    {
+      "module": "IntegerZeroUniqueness",
+      "file": "sources/IntegerZeroUniqueness.lean",
+      "sha256": "4691ba4fb1da89f97857b38e12971d06d9487a414ece58b265be8ad29a36bada",
+      "bytes": 7794,
+      "imports": [
+        "SchwarzHalfPlane"
+      ],
+      "origin_project": "aim34_analytic_lean"
+    },
+    {
+      "module": "ThreeQuarterDamping",
+      "file": "sources/ThreeQuarterDamping.lean",
+      "sha256": "451b3e7110749f227d9eb2bb26e731cca035cdd1648cd40adf0a45e26a3f1e97",
+      "bytes": 4557,
+      "imports": [
+        "IntegerZeroUniqueness",
+        "Mathlib.Analysis.SpecialFunctions.Pow.Deriv",
+        "Mathlib.Analysis.SpecialFunctions.Pow.Real"
+      ],
+      "origin_project": "aim34_analytic_lean"
+    },
+    {
+      "module": "NewtonBasis",
+      "file": "sources/NewtonBasis.lean",
+      "sha256": "4cf6513bae30f8e146be8e2390e3e7755d4b36e1b7366d22ec7337721a7c8c94",
+      "bytes": 3716,
+      "imports": [
+        "Mathlib.Analysis.Complex.LocallyUniformLimit",
+        "Mathlib.Analysis.Calculus.Deriv.Polynomial",
+        "Mathlib.Data.Nat.Choose.Bounds",
+        "Mathlib.Data.Nat.Choose.Cast",
+        "Mathlib.Tactic.FieldSimp",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.Positivity",
+        "Mathlib.Tactic.NormNum"
+      ],
+      "origin_project": "aim34_analytic_lean"
+    },
+    {
+      "module": "NewtonDecay",
+      "file": "sources/NewtonDecay.lean",
+      "sha256": "abf12695feb66bc2371b3bf8e140a6b30ba56408ca037be85ce47955e95432f6",
+      "bytes": 4417,
+      "imports": [
+        "NewtonBasis",
+        "Mathlib.Analysis.SpecialFunctions.Log.Basic",
+        "Mathlib.Analysis.SpecificLimits.Basic"
+      ],
+      "origin_project": "aim34_analytic_lean"
+    },
+    {
+      "module": "NewtonInterpolation",
+      "file": "sources/NewtonInterpolation.lean",
+      "sha256": "242167617b271301162cb4372baf0c373163b2b094318d3422653a19fe76b876",
+      "bytes": 4978,
+      "imports": [
+        "NewtonDecay"
+      ],
+      "origin_project": "aim34_analytic_lean"
+    },
+    {
+      "module": "RadicalPowerAnalytic",
+      "file": "sources/RadicalPowerAnalytic.lean",
+      "sha256": "3ffdffdd60c7aa0c6f2432a07e551f3ea4e18078ac5372c8efa5c341450488e9",
+      "bytes": 6962,
+      "imports": [
+        "ThreeQuarterDamping",
+        "NewtonInterpolation",
+        "Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv",
+        "Mathlib.Algebra.Order.Floor.Semiring"
+      ],
+      "origin_project": "aim34_analytic_lean"
+    },
+    {
+      "module": "RadicalBranchObstruction",
+      "file": "sources/RadicalBranchObstruction.lean",
+      "sha256": "67778bf829c47d5d8dadcda3f4e5faef1104d772cdd2f0ea22b5e778caf597f5",
+      "bytes": 3994,
+      "imports": [
+        "RadicalPowerAnalytic",
+        "Mathlib.Analysis.Complex.RealDeriv",
+        "Mathlib.Analysis.SpecialFunctions.Sqrt",
+        "Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics"
+      ],
+      "origin_project": "aim34_analytic_lean"
+    },
+    {
+      "module": "RadicalInterpolationObstruction",
+      "file": "sources/RadicalInterpolationObstruction.lean",
+      "sha256": "169f4beb421c4c921925506b405c6e50957f2fce48504c4318d19a47b89625e4",
+      "bytes": 6068,
+      "imports": [
+        "RadicalBranchObstruction"
+      ],
+      "origin_project": "aim34_analytic_lean"
+    },
+    {
+      "module": "FullAIM34",
+      "file": "sources/FullAIM34.lean",
+      "sha256": "364a080301aff860f7b873c057f815fe47ecbe0a7b9163d421f80857884526c5",
+      "bytes": 2608,
+      "imports": [
+        "ForwardDifferenceSign",
+        "RadicalInterpolationObstruction"
+      ],
+      "origin_project": "aim34_jensen_lean"
+    },
+    {
+      "module": "AIM34Audit",
+      "file": "sources/AIM34Audit.lean",
+      "sha256": "312a4cad5df1a56b1bd438361b19f1493a4a0069140d42a2019e37ab4c47eb94",
+      "bytes": 1012,
+      "imports": [
+        "FullAIM34"
+      ],
+      "origin_project": "aim34_jensen_lean"
+    }
+  ],
+  "final_theorems": [
+    "AIM34.not_multiplier_shiftedRadicalPower",
+    "AIM34.exists_counterexample_polynomial",
+    "AIM34.fullProblem34",
+    "AIM34.problem34_positive_integer_shift",
+    "AIM34.problem34_one_indexed_shift"
+  ]
+}

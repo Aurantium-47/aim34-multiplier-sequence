@@ -1,0 +1,23 @@
+{
+  "module": "ForwardDifferenceSign",
+  "source_sha256": "2b16abc91259ae7939cc4fb65cb5d305c349c579825921e955ba67a55538337f",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/ForwardDifferenceSign.olean",
+    "REVIEW_REPLAY/source/ForwardDifferenceSign.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/010_ForwardDifferenceSign.log",
+  "exit_code": 0,
+  "seconds": 1.8379309177398682,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "724b1d297c26889b78a736701d13aa0a359a92802c24b8e510d3e2055e3b9369"
+}

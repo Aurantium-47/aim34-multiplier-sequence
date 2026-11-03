@@ -1,0 +1,7 @@
+{
+  "PATH": "/usr/bin:/bin",
+  "HOME": "REVIEW_HOME",
+  "LEAN_PATH": "REVIEW_REPLAY/build:PINNED_LEAN_ENV/packages/Cli/.lake/build/lib/lean:PINNED_LEAN_ENV/packages/LeanSearchClient/.lake/build/lib/lean:PINNED_LEAN_ENV/packages/Qq/.lake/build/lib/lean:PINNED_LEAN_ENV/packages/aesop/.lake/build/lib/lean:PINNED_LEAN_ENV/packages/batteries/.lake/build/lib/lean:PINNED_LEAN_ENV/packages/importGraph/.lake/build/lib/lean:PINNED_LEAN_ENV/packages/mathlib/.lake/build/lib/lean:PINNED_LEAN_ENV/packages/plausible/.lake/build/lib/lean:PINNED_LEAN_ENV/packages/proofwidgets/.lake/build/lib/lean",
+  "LEAN_NUM_THREADS": "1",
+  "LC_ALL": "C.UTF-8"
+}

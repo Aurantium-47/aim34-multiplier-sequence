@@ -1,0 +1,23 @@
+{
+  "module": "SequenceBounds",
+  "source_sha256": "efa2e2e5b97224b736e56e31898506ba7bbf380acae27cd26af8a73eea9d836c",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/SequenceBounds.olean",
+    "REVIEW_REPLAY/source/SequenceBounds.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/007_SequenceBounds.log",
+  "exit_code": 0,
+  "seconds": 2.746582269668579,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "5959860d09970eab665a15669763bd3a9a79b97bddda613003b476eff2ca14f7"
+}

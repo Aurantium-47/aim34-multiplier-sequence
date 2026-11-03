@@ -1,0 +1,9 @@
+{
+  "visited_source_count": 1921,
+  "missing": [
+    {
+      "module": "Mathlib.Analysis.SpecialFunctions.Sqrt",
+      "sha256": "ad181c568970d2f938d6a0cad953ec1dff35f56329389a61c654053237919952"
+    }
+  ]
+}

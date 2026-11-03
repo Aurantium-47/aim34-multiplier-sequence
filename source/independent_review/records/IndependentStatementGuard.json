@@ -1,0 +1,23 @@
+{
+  "module": "IndependentStatementGuard",
+  "source_sha256": "4450754745cb6ca82f2c4055e3f640ccc98f1ca26a25ddf55ec7bb7780b402dd",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/IndependentStatementGuard.olean",
+    "REVIEW_REPLAY/source/IndependentStatementGuard.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/022_IndependentStatementGuard.log",
+  "exit_code": 0,
+  "seconds": 1.9872958660125732,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "724f4c6fe3c11f23955286b8030802c392c3784d9e910e7e2397221ebec001e5"
+}

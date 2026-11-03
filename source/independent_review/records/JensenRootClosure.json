@@ -1,0 +1,23 @@
+{
+  "module": "JensenRootClosure",
+  "source_sha256": "af9f4a39a932f2465c1e547f91f8179086bd7f399f62b36928a1317c43c09a8e",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/JensenRootClosure.olean",
+    "REVIEW_REPLAY/source/JensenRootClosure.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/004_JensenRootClosure.log",
+  "exit_code": 0,
+  "seconds": 2.267568349838257,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "fd178cf46a0cf59d0825ce8cbd3752673de4786bf5878c6cc103d60346832816"
+}

@@ -1,0 +1,23 @@
+{
+  "module": "RadicalPowerAnalytic",
+  "source_sha256": "3ffdffdd60c7aa0c6f2432a07e551f3ea4e18078ac5372c8efa5c341450488e9",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/RadicalPowerAnalytic.olean",
+    "REVIEW_REPLAY/source/RadicalPowerAnalytic.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/017_RadicalPowerAnalytic.log",
+  "exit_code": 0,
+  "seconds": 4.877468824386597,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "44492601ac8d63e1abd78e44a682b84095f2464534a7f738b2dc035cc9330417"
+}

@@ -1,0 +1,23 @@
+{
+  "module": "SchwarzHalfPlane",
+  "source_sha256": "a95092d45879ee69688ccb1e5f95fe3b410e4c760ca21a67877f7fab3d13e24b",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/SchwarzHalfPlane.olean",
+    "REVIEW_REPLAY/source/SchwarzHalfPlane.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/011_SchwarzHalfPlane.log",
+  "exit_code": 0,
+  "seconds": 4.0149924755096436,
+  "log_sha256": "473c834b3e51e08427b2687f53dac97349e94e6addefbfb467269844db3a3d04",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "8b9b3a205363120c000ab20ed913a497b3276d87b1fb4404db3a1fa7110aee04"
+}

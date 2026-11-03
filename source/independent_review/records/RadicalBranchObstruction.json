@@ -1,0 +1,23 @@
+{
+  "module": "RadicalBranchObstruction",
+  "source_sha256": "67778bf829c47d5d8dadcda3f4e5faef1104d772cdd2f0ea22b5e778caf597f5",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/RadicalBranchObstruction.olean",
+    "REVIEW_REPLAY/source/RadicalBranchObstruction.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/018_RadicalBranchObstruction.log",
+  "exit_code": 0,
+  "seconds": 2.600128173828125,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "731bec8055cac7bfd85ed4b50015dff5a92d2e05a7a83d78d307f26c3ca141b4"
+}

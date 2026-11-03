@@ -1,0 +1,23 @@
+{
+  "module": "RadicalInterpolationObstruction",
+  "source_sha256": "169f4beb421c4c921925506b405c6e50957f2fce48504c4318d19a47b89625e4",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/RadicalInterpolationObstruction.olean",
+    "REVIEW_REPLAY/source/RadicalInterpolationObstruction.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/019_RadicalInterpolationObstruction.log",
+  "exit_code": 0,
+  "seconds": 6.163110971450806,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "4f94534bf12f0698c175c99f1729b6274490d32f191e9df34e3f126018561645"
+}

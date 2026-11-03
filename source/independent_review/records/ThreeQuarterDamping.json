@@ -1,0 +1,23 @@
+{
+  "module": "ThreeQuarterDamping",
+  "source_sha256": "451b3e7110749f227d9eb2bb26e731cca035cdd1648cd40adf0a45e26a3f1e97",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/ThreeQuarterDamping.olean",
+    "REVIEW_REPLAY/source/ThreeQuarterDamping.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/013_ThreeQuarterDamping.log",
+  "exit_code": 0,
+  "seconds": 3.574998378753662,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "7bf577700674ea4facee676c2e32f3ec1f7651c5aa0a763644e6691c4aeacc8d"
+}

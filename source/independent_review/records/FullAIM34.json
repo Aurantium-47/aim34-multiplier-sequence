@@ -1,0 +1,23 @@
+{
+  "module": "FullAIM34",
+  "source_sha256": "364a080301aff860f7b873c057f815fe47ecbe0a7b9163d421f80857884526c5",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/FullAIM34.olean",
+    "REVIEW_REPLAY/source/FullAIM34.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/020_FullAIM34.log",
+  "exit_code": 0,
+  "seconds": 1.7801380157470703,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "e91b80ad52a984561b0d186aa3eb3ab59c2b3fb27cc9afa30530f2c78235b246"
+}

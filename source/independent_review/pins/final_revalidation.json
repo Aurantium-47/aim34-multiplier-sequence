@@ -1,0 +1,16 @@
+{
+  "status": "FULL_PASS",
+  "author_source_modules": 22,
+  "reviewer_source_modules": 2,
+  "successful_fresh_compiler_commands": 24,
+  "source_declarations_author": 164,
+  "source_declarations_reviewer": 6,
+  "external_files_revalidated": 11698,
+  "external_package_modules_with_build_provenance": 2522,
+  "summary": "INDEPENDENT_AUDIT_COMPLETE|source_modules=23|kernel=241|safe=229|bodies=229|compiler_unsafe=12|mathematical_unsafe=0|partial=0|codegen=1",
+  "closure": "CLOSURE_COMPLETE|43667|41825|251|[Quot.sound, Classical.choice, propext]",
+  "frozen_manifest_sha256": "861ddf010df9615f347c1fb5ef784b5054291b9ddbe4bb0c2b894204d4c7b87b",
+  "logical_compiler_artifacts_disjoint": true,
+  "reviewer_failed_compiler_attempts": 0,
+  "all_logs_and_outputs_hash_revalidated": true
+}

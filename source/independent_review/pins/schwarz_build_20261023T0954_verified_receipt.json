@@ -1,0 +1,13 @@
+{
+  "module": "Mathlib.Analysis.Complex.Schwarz",
+  "source_sha256": "2a037748d23b47e463269a785ea8646fde9b9e889241d4f52eab9d7df4388b4b",
+  "olean_sha256": "18f7d4aa9293fab327caad60dd6acc55d9fecb73c0c51c60061ab17997089a66",
+  "exit_code": 0,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "exit_receipt_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+  "source_receipt_sha256": "009a6d8eb260e76149157ecf74a1bfda55a48a3214ca1a4e3d4f47aa6a2aaa2b",
+  "source_receipt_file": "schwarz_source_20261023T0954.sha256",
+  "build_log_file": "schwarz_build_20261023T0954.log",
+  "build_exit_file": "schwarz_build_20261023T0954.exit",
+  "note": "Original successful official pinned-source cache build; immutable author evidence copied for verification."
+}

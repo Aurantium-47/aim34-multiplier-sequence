@@ -1,0 +1,23 @@
+{
+  "module": "JensenIdentities",
+  "source_sha256": "a67d4768545b62ba6bfa2e6e33c8b0d5c40841fba7aa976a1c0ebe87e8ba48a1",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/JensenIdentities.olean",
+    "REVIEW_REPLAY/source/JensenIdentities.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/001_JensenIdentities.log",
+  "exit_code": 0,
+  "seconds": 2.740985155105591,
+  "log_sha256": "b9caf7a2e152b841dbb60061966b6ea7e5f2aa3716cca8c2da31a4d16c8b6b82",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "82e2a627443ee5032778509bb7386df61bef379ae64fbdf2226f671a17689f98"
+}

@@ -1,0 +1,23 @@
+{
+  "module": "RealRootGeometry",
+  "source_sha256": "a1131b387e5777b5e231a973fd1f4f51e678fa795af57f0b66fb208b3f3eeab9",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/RealRootGeometry.olean",
+    "REVIEW_REPLAY/source/RealRootGeometry.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/002_RealRootGeometry.log",
+  "exit_code": 0,
+  "seconds": 2.761829137802124,
+  "log_sha256": "6c33a401448e3ebff2301646d1bd4bc4be96aa75993adcbd6663bbc905b042e1",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "1c1bdfa4b2cf12e91c682f1ba0fd5ea3de2742638f0674b350217a756a995e0d"
+}

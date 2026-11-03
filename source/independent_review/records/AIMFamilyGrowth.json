@@ -1,0 +1,23 @@
+{
+  "module": "AIMFamilyGrowth",
+  "source_sha256": "3dc1e59c50b28b6b1d5a362c48a9415356c71b74009624bf465e2706756d9de9",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/AIMFamilyGrowth.olean",
+    "REVIEW_REPLAY/source/AIMFamilyGrowth.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/008_AIMFamilyGrowth.log",
+  "exit_code": 0,
+  "seconds": 2.921574831008911,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "574947d7d492b1f1352f921a25c6dcd3509592d3faa30cb1e3ef7787fed19123"
+}

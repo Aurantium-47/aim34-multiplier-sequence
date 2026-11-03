@@ -1,0 +1,23 @@
+{
+  "module": "NewtonInterpolation",
+  "source_sha256": "242167617b271301162cb4372baf0c373163b2b094318d3422653a19fe76b876",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/NewtonInterpolation.olean",
+    "REVIEW_REPLAY/source/NewtonInterpolation.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/016_NewtonInterpolation.log",
+  "exit_code": 0,
+  "seconds": 2.4476633071899414,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "c0b28675720740776d621c0d56e2d11ebdacedd6b2186354066596dde20da763"
+}

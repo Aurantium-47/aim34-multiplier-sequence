@@ -1,0 +1,23 @@
+{
+  "module": "IntegerZeroUniqueness",
+  "source_sha256": "4691ba4fb1da89f97857b38e12971d06d9487a414ece58b265be8ad29a36bada",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/IntegerZeroUniqueness.olean",
+    "REVIEW_REPLAY/source/IntegerZeroUniqueness.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/012_IntegerZeroUniqueness.log",
+  "exit_code": 0,
+  "seconds": 6.358301401138306,
+  "log_sha256": "59eba68b0aff4dbeb4c5c0e5001e42eb7f5627faff8c1d52bd31850c175b7aa0",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "43d695cb42774561ee7d900fe70514e6adc225200311f9daae29e1050c801a07"
+}

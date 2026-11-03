@@ -1,0 +1,23 @@
+{
+  "module": "NewtonBasis",
+  "source_sha256": "4cf6513bae30f8e146be8e2390e3e7755d4b36e1b7366d22ec7337721a7c8c94",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/NewtonBasis.olean",
+    "REVIEW_REPLAY/source/NewtonBasis.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/014_NewtonBasis.log",
+  "exit_code": 0,
+  "seconds": 2.8984527587890625,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "35c6e77c46871588cc99a13d0d3ec6029ef8429b717eaca2b71b667d9d3c65e6"
+}

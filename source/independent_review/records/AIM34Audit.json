@@ -1,0 +1,23 @@
+{
+  "module": "AIM34Audit",
+  "source_sha256": "312a4cad5df1a56b1bd438361b19f1493a4a0069140d42a2019e37ab4c47eb94",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/AIM34Audit.olean",
+    "REVIEW_REPLAY/source/AIM34Audit.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/021_AIM34Audit.log",
+  "exit_code": 0,
+  "seconds": 21.161649465560913,
+  "log_sha256": "d2d5b36788f37f433b446997588dfa9696bd19c81d4613fdd4c45ae46ecdd8e9",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "33ed4694aa77f39b5a91f521b4ef3a92fa624a824e269cc5f61b685612af200e"
+}

@@ -1,0 +1,23 @@
+{
+  "module": "JensenPositivity",
+  "source_sha256": "e17ebda5ecda53a6a2ad8dd28c88bee3200e727ad9981358bb247d5a72373c67",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/JensenPositivity.olean",
+    "REVIEW_REPLAY/source/JensenPositivity.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/006_JensenPositivity.log",
+  "exit_code": 0,
+  "seconds": 3.128994941711426,
+  "log_sha256": "f946e1440beb6e1d9a2165be4935f003277b40515be24f612c7b6b5df72a6501",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "5826c4cb7b8736d93cebecab39ea9b0053bb99bbdf976bfbe8bcc6893116483b"
+}

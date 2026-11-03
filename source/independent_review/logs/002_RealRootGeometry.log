@@ -1,0 +1,4 @@
+REVIEW_REPLAY/source/RealRootGeometry.lean:51:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+REVIEW_REPLAY/source/RealRootGeometry.lean:116:2: warning: try 'simp at hneg' instead of 'simpa using hneg'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`

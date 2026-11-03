@@ -1,0 +1,23 @@
+{
+  "module": "NewtonDecay",
+  "source_sha256": "abf12695feb66bc2371b3bf8e140a6b30ba56408ca037be85ce47955e95432f6",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/NewtonDecay.olean",
+    "REVIEW_REPLAY/source/NewtonDecay.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/015_NewtonDecay.log",
+  "exit_code": 0,
+  "seconds": 2.5726261138916016,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "60508f82dc7af1cc0dd180726c16f1294125ced491bbf96be0fb774be221984c"
+}

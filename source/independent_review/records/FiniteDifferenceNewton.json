@@ -1,0 +1,23 @@
+{
+  "module": "FiniteDifferenceNewton",
+  "source_sha256": "0e36fcb3d72b5600275df956d1e2e366391d9982ac623613cc17e72cb663a3e3",
+  "command": [
+    "PINNED_LEAN_ENV/lean-4.19.0-linux/bin/lean",
+    "-j",
+    "1",
+    "-s",
+    "16384",
+    "-DElab.async=false",
+    "-o",
+    "REVIEW_REPLAY/build/FiniteDifferenceNewton.olean",
+    "REVIEW_REPLAY/source/FiniteDifferenceNewton.lean"
+  ],
+  "cwd": "REVIEW_REPLAY/source",
+  "log": "REVIEW_REPLAY/logs/009_FiniteDifferenceNewton.log",
+  "exit_code": 0,
+  "seconds": 1.7058537006378174,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "memory_cap_bytes": 4294967296,
+  "stack_kib": 16384,
+  "olean_sha256": "bdb1883c7d54d613f6f1f7bc000a2f84564e31a17272216b2a06ae3bba43121f"
+}
