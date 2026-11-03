@@ -1,0 +1,344 @@
+[
+  {
+    "file": "author_logs/AIM34Audit_20261023_102146.log",
+    "explicit_exit_code": "0",
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "author_logs/AIM34Definitions_20261023_095410.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": "Earlier empty logs without an explicit exit receipt are not independently interpreted as proof acceptance."
+  },
+  {
+    "file": "author_logs/AIMFamilyGrowthDraft_20261023_101315.log",
+    "explicit_exit_code": "1",
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "author_logs/AIMFamilyGrowthDraft_20261023_101507.log",
+    "explicit_exit_code": "1",
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "author_logs/AIMFamilyGrowthDraft_20261023_101620.log",
+    "explicit_exit_code": "0",
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "author_logs/AIMFamilyGrowth_20261023_101813.log",
+    "explicit_exit_code": "0",
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "author_logs/FiniteDifferenceNewton_20261023_101623.log",
+    "explicit_exit_code": "1",
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "author_logs/FiniteDifferenceNewton_20261023_101650.log",
+    "explicit_exit_code": "1",
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "author_logs/FiniteDifferenceNewton_20261023_101727.log",
+    "explicit_exit_code": "0",
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "author_logs/ForwardDifferenceSign_20261023_101728.log",
+    "explicit_exit_code": "1",
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "author_logs/ForwardDifferenceSign_20261023_101816.log",
+    "explicit_exit_code": "0",
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "author_logs/FullAIM34_20261023_102007.log",
+    "explicit_exit_code": "1",
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "author_logs/FullAIM34_20261023_102103.log",
+    "explicit_exit_code": "1",
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "author_logs/FullAIM34_20261023_102144.log",
+    "explicit_exit_code": "0",
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "author_logs/JensenIdentities_20261023_095537.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "author_logs/JensenIdentities_20261023_095624.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "author_logs/JensenPositivity_20261023_101038.log",
+    "explicit_exit_code": "1",
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "author_logs/JensenPositivity_20261023_101200.log",
+    "explicit_exit_code": "1",
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "author_logs/JensenPositivity_20261023_101309.log",
+    "explicit_exit_code": "0",
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "author_logs/JensenRootClosure_20261023_100331.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "author_logs/JensenRootClosure_20261023_100428.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": "Earlier empty logs without an explicit exit receipt are not independently interpreted as proof acceptance."
+  },
+  {
+    "file": "author_logs/NonnegativeRootGeometry_20261023_100629.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "author_logs/NonnegativeRootGeometry_20261023_100802.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "author_logs/NonnegativeRootGeometry_20261023_100915.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "author_logs/PolarRealRooted_20261023_095951.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": "Earlier empty logs without an explicit exit receipt are not independently interpreted as proof acceptance."
+  },
+  {
+    "file": "author_logs/PolarRealRooted_20261023_100128.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "author_logs/PolarRealRooted_20261023_100203.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": "Earlier empty logs without an explicit exit receipt are not independently interpreted as proof acceptance."
+  },
+  {
+    "file": "author_logs/RealRootGeometry_20261023_095804.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "author_logs/RealRootGeometry_20261023_095851.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "author_logs/SequenceBoundsDraft_20261023_101312.log",
+    "explicit_exit_code": "0",
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "author_logs/SequenceBounds_20261023_101811.log",
+    "explicit_exit_code": "0",
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/analytic_axioms_20261023T1019.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/branch_obstruction_check_20261023T1015.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/branch_obstruction_check_20261023T1017.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/branch_obstruction_check_20261023T1018.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": "Earlier empty logs without an explicit exit receipt are not independently interpreted as proof acceptance."
+  },
+  {
+    "file": "analytic_author_logs/damping_check_20261023T1007.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/damping_check_20261023T1008.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": "Earlier empty logs without an explicit exit receipt are not independently interpreted as proof acceptance."
+  },
+  {
+    "file": "analytic_author_logs/interpolation_obstruction_check_20261023T1018.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/interpolation_obstruction_check_20261023T1019.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": "Earlier empty logs without an explicit exit receipt are not independently interpreted as proof acceptance."
+  },
+  {
+    "file": "analytic_author_logs/newton_axioms_20261023T1006.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/newton_basis_check_20261023T1001.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/newton_basis_check_20261023T1002.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/newton_basis_check_20261023T1003.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": "Earlier empty logs without an explicit exit receipt are not independently interpreted as proof acceptance."
+  },
+  {
+    "file": "analytic_author_logs/newton_decay_check_20261023T1004.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": "Earlier empty logs without an explicit exit receipt are not independently interpreted as proof acceptance."
+  },
+  {
+    "file": "analytic_author_logs/newton_interpolation_check_20261023T1004.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/newton_interpolation_check_20261023T1005.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": "Earlier empty logs without an explicit exit receipt are not independently interpreted as proof acceptance."
+  },
+  {
+    "file": "analytic_author_logs/radical_analytic_check_20261023T1010.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/radical_analytic_check_20261023T1013.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": "Earlier empty logs without an explicit exit receipt are not independently interpreted as proof acceptance."
+  },
+  {
+    "file": "analytic_author_logs/schwarz_build_20261023T0954.log",
+    "explicit_exit_code": "0",
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/schwarz_check_20261023T0955.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/schwarz_check_20261023T0956.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/schwarz_check_20261023T0957.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/sqrt_build_20261023T1014.log",
+    "explicit_exit_code": "0",
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/uniqueness_axioms_20261023T0959.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/uniqueness_build_20261023T0958.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/uniqueness_check_20261023T0957.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": true,
+    "note": ""
+  },
+  {
+    "file": "analytic_author_logs/uniqueness_check_20261023T0958.log",
+    "explicit_exit_code": null,
+    "diagnostics_indicate_failure": false,
+    "note": ""
+  }
+]

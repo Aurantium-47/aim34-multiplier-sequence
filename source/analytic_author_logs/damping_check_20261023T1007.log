@@ -1,0 +1,20 @@
+ThreeQuarterDamping.lean:24:4: error: linarith failed to find a contradiction
+case a
+w : ℂ
+hw : 0 ≤ w.re
+ha : |w.arg| ≤ Real.pi / 2
+a✝ : |w.arg| * |3 / 4| > 3 * Real.pi / 8
+⊢ False failed
+ThreeQuarterDamping.lean:66:37: error: unsolved goals
+f : ℂ → ℂ
+A C : ℝ
+hA : 0 ≤ A
+hC : 0 ≤ C
+hb : ∀ z ∈ rightHalfPlane, ‖f z‖ ≤ C * Real.exp (A * ‖z + 1‖ ^ (3 / 4))
+z : ℂ
+hz : z ∈ rightHalfPlane
+hw : 0 ≤ (z + 1).re
+hlower : threeQuarterCos * ‖z + 1‖ ^ (3 / 4) ≤ ((z + 1) ^ (3 / 4)).re
+hD : 0 ≤ A / threeQuarterCos
+hmul : A / threeQuarterCos * (threeQuarterCos * ‖z + 1‖ ^ (3 / 4)) ≤ A / threeQuarterCos * ((z + 1) ^ (3 / 4)).re
+⊢ A * (threeQuarterCos * ‖z + 1‖ ^ (3 / 4)) = A * ‖z + 1‖ ^ (3 / 4) * threeQuarterCos

@@ -1,0 +1,31 @@
+SchwarzHalfPlane.lean:20:4: error: failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Complex.instDivInvMonoid', and it does not have executable code
+SchwarzHalfPlane.lean:23:4: error: failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Complex.instDivInvMonoid', and it does not have executable code
+SchwarzHalfPlane.lean:35:25: error: trying to realize AIM34.halfPlaneToDisk.eq_1 but `enableRealizationsForConst` must be called for 'AIM34.halfPlaneToDisk' first
+SchwarzHalfPlane.lean:49:2: warning: try 'simp at hw' instead of 'simpa using hw'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+SchwarzHalfPlane.lean:59:6: error: trying to realize AIM34.diskToHalfPlane.eq_1 but `enableRealizationsForConst` must be called for 'AIM34.diskToHalfPlane' first
+Try this: ring_nf
+SchwarzHalfPlane.lean:70:79: error: unsolved goals
+a : ℝ
+ha : 0 < a
+z : ℂ
+hz : z ∈ rightHalfPlane
+haz : z + ↑a ≠ 0
+ha' : ↑a ≠ 0
+⊢ ↑a * z * (↑a)⁻¹ = z
+SchwarzHalfPlane.lean:84:9: error: invalid field notation, type is not of the form (C ...) where C is a constant
+  differentiableOn_const
+has type
+  ∀ (c : ?m.27278), DifferentiableOn ?m.27130 (fun x => c) ?m.27417
+SchwarzHalfPlane.lean:88:4: error: failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Complex.instRCLike', and it does not have executable code
+SchwarzHalfPlane.lean:103:2: error: trying to realize AIM34.schwarzQuotient.eq_1 but `enableRealizationsForConst` must be called for 'AIM34.schwarzQuotient' first
+SchwarzHalfPlane.lean:103:2: error: trying to realize AIM34.diskToHalfPlane.eq_1 but `enableRealizationsForConst` must be called for 'AIM34.diskToHalfPlane' first
+SchwarzHalfPlane.lean:103:2: error: type mismatch, term
+  h
+after simplification has type
+  halfPlaneToDisk a z * dslope (fun w => f (diskToHalfPlane a w)) 0 (halfPlaneToDisk a z) =
+    f z - f (diskToHalfPlane a 0) : Prop
+but is expected to have type
+  halfPlaneToDisk a z * schwarzQuotient f a z = f z : Prop
+SchwarzHalfPlane.lean:109:8: error: unknown identifier 'le_of_forall_gt'
+SchwarzHalfPlane.lean:110:2: error: no goals to be solved

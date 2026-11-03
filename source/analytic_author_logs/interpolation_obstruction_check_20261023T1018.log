@@ -1,0 +1,20 @@
+RadicalInterpolationObstruction.lean:81:6: error: tactic 'assumption' failed
+case hz
+m C : ℝ
+hm : 0 < m
+hC : 0 ≤ C
+H : ℂ → ℂ
+hH : Differentiable ℂ H
+hn : ∀ (n : ℕ), H ↑n = ↑((↑n + m).rpow √(↑n + m))
+hb : ∀ (N : ℕ) (z : ℂ), ‖z‖ ≤ ↑N → ‖H z‖ ≤ (↑(3 * N) + m).rpow √(↑(3 * N) + m) + C
+A : ℝ := 4 * (6 + m) ^ (3 / 4)
+B : ℝ := (|Real.log m| + Real.pi + 4) * (1 + m) ^ (3 / 4)
+hA : 0 ≤ A
+hB : 0 ≤ B
+hs : rightHalfPlane ⊆ shiftedRightHalfPlane m
+hdiff : DifferentiableOn ℂ (fun z => H z - radicalPowerAnalytic m z) rightHalfPlane
+n : ℕ
+hnpos : 0 < n
+ht : 0 < ↑n + m
+hval : radicalPowerAnalytic m ↑↑n = ↑((↑n + m).rpow √(↑n + m))
+⊢ ↑((↑n + m).rpow √(↑n + m)) - radicalPowerAnalytic m ↑n = 0

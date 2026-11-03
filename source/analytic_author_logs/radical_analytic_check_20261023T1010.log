@@ -1,0 +1,36 @@
+Try this: ring_nf
+RadicalPowerAnalytic.lean:44:60: error: unsolved goals
+case e_r
+t : ℝ
+ht : 0 < t
+hhalf : 1 / 2 = ↑(1 / 2)
+⊢ Real.exp (Real.log t * Real.exp (Real.log t * (1 / 2))) = t.rpow (t ^ (1 / 2))
+RadicalPowerAnalytic.lean:67:8: error: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?a * (?b * ?c)
+t : ℝ
+ht : 0 < t
+hl : Real.log t ≤ t ^ (1 / 4) / (1 / 4)
+hm : t ^ (1 / 2) * Real.log t ≤ t ^ (1 / 2) * (t ^ (1 / 4) / (1 / 4))
+⊢ t ^ (1 / 2) * (t ^ (1 / 4) / (1 / 4)) = 4 * t ^ (3 / 4)
+RadicalPowerAnalytic.lean:75:2: error: tactic 'apply' failed, failed to unify
+  Real.exp ?m.13050 ≤ Real.exp ?m.13051
+with
+  t.rpow √t ≤ Real.exp (4 * Real.exp (Real.log t * (3 / 4)))
+t : ℝ
+ht : 0 < t
+⊢ t.rpow √t ≤ Real.exp (4 * Real.exp (Real.log t * (3 / 4)))
+RadicalPowerAnalytic.lean:92:4: error: type mismatch, term
+  Real.log_le_rpow_div (LT.lt.le hUpos)
+    (Mathlib.Meta.NormNum.isRat_lt_true
+      (Mathlib.Meta.NormNum.IsNat.to_isRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))
+      (Mathlib.Meta.NormNum.isRat_div
+        (Mathlib.Meta.NormNum.isRat_mul (Eq.refl HMul.hMul)
+          (Mathlib.Meta.NormNum.IsNat.to_isRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one))
+          (Mathlib.Meta.NormNum.isRat_inv_pos
+            (Mathlib.Meta.NormNum.IsNat.to_isRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 4))))
+          (Eq.refl ((Int.ofNat 1).mul (Int.ofNat 1))) (Eq.refl 4)))
+      (Eq.refl true))
+after simplification has type
+  Real.log U ≤ U ^ 4⁻¹ * 4 : Prop
+but is expected to have type
+  Real.log U ≤ 4 * U ^ 4⁻¹ : Prop

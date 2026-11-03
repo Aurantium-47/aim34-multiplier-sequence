@@ -1,0 +1,52 @@
+IntegerZeroUniqueness.lean:29:50: error: application type mismatch
+  norm_schwarzQuotient_le ha ih.left hzero
+argument
+  hzero
+has type
+  removeIntegerRoots f N (↑↑N + 1) = 0 : Prop
+but is expected to have type
+  removeIntegerRoots f N ↑(↑N + 1) = 0 : Prop
+IntegerZeroUniqueness.lean:33:55: error: application type mismatch
+  @halfPlaneToDisk_mul_schwarzQuotient ?m.9547 (↑N + 1) ha hzero
+argument
+  hzero
+has type
+  removeIntegerRoots f N (↑↑N + 1) = 0 : Prop
+but is expected to have type
+  ?m.9547 ↑(↑N + 1) = 0 : Prop
+IntegerZeroUniqueness.lean:62:45: error: application type mismatch
+  @halfPlaneToDisk_mul_schwarzQuotient (removeIntegerRoots f N) (↑N + 1) ha hzero
+argument
+  hzero
+has type
+  removeIntegerRoots f N (↑↑N + 1) = 0 : Prop
+but is expected to have type
+  removeIntegerRoots f N ↑(↑N + 1) = 0 : Prop
+IntegerZeroUniqueness.lean:74:6: error: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?m.20262 / Complex.normSq (z + ↑n) ≤ ?m.20264 / (2 * ↑n + 1)
+z : ℂ
+hre : 1 / 2 ≤ z.re
+hnorm : ‖z‖ ≤ 1
+n : ℕ
+hn : 0 < n
+hn1 : 1 ≤ ↑n
+hzh : z ∈ rightHalfPlane
+hden : 0 < Complex.normSq (z + ↑n)
+⊢ Complex.normSq (z - ↑↑n) / Complex.normSq (z + ↑↑n) ≤ (2 * ↑n - 1) / (2 * ↑n + 1)
+Try this: ring_nf
+IntegerZeroUniqueness.lean:100:45: error: unsolved goals
+z : ℂ
+hre : 1 / 2 ≤ z.re
+hnorm : ‖z‖ ≤ 1
+N : ℕ
+ih : ∏ k ∈ Finset.range N, ‖halfPlaneToDisk (↑k + 1) z‖ ^ 2 ≤ 1 / (2 * ↑N + 1)
+hn : ‖halfPlaneToDisk (↑N.succ) z‖ ^ 2 ≤ (2 * ↑N.succ - 1) / (2 * ↑N.succ + 1)
+⊢ True ∨ 3 + ↑N * 2 = 0
+IntegerZeroUniqueness.lean:99:22: error: application type mismatch
+  mul_le_mul ih hn
+argument
+  hn
+has type
+  ‖halfPlaneToDisk (↑N.succ) z‖ ^ 2 ≤ (2 * ↑N.succ - 1) / (2 * ↑N.succ + 1) : Prop
+but is expected to have type
+  ‖halfPlaneToDisk (↑N + 1) z‖ ^ 2 ≤ (2 * (↑N + 1) - 1) / (2 * (↑N + 1) + 1) : Prop

@@ -1,0 +1,13 @@
+Try this: ring_nf
+NewtonBasis.lean:22:67: error: unsolved goals
+r : ℕ
+z : ℂ
+⊢ (z * ∏ x ∈ Finset.range r, (z - ↑x)) * (↑r * ↑r.factorial + ↑r.factorial)⁻¹ -
+      (∏ x ∈ Finset.range r, (z - ↑x)) * ↑r * (↑r * ↑r.factorial + ↑r.factorial)⁻¹ =
+    (z * ∏ x ∈ Finset.range r, (z - ↑x)) * (↑r.factorial)⁻¹ * (1 + ↑r)⁻¹ -
+      (∏ x ∈ Finset.range r, (z - ↑x)) * ↑r * (↑r.factorial)⁻¹ * (1 + ↑r)⁻¹
+NewtonBasis.lean:31:8: error: invalid field 'differentiable', the environment does not contain 'Polynomial.differentiable'
+  descPochhammer ℂ r
+has type
+  Polynomial ℂ
+NewtonBasis.lean:46:63: error: invalid argument name 'R' for function 'Nat.cast_nonneg'

@@ -1,0 +1,3 @@
+'AIM34.summable_newton_coefficients_mul_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM34.entire_newton_interpolation_and_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM34.newtonInterpolant_natCast' depends on axioms: [propext, Classical.choice, Quot.sound]

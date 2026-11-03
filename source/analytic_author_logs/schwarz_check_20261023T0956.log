@@ -1,0 +1,11 @@
+SchwarzHalfPlane.lean:51:2: warning: try 'simp at hw' instead of 'simpa using hw'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+SchwarzHalfPlane.lean:77:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+SchwarzHalfPlane.lean:105:2: error: type mismatch, term
+  h
+after simplification has type
+  halfPlaneToDisk a z * dslope (fun w => f (↑a * (1 + w) / (1 - w))) 0 (halfPlaneToDisk a z) =
+    f (↑a * (1 + halfPlaneToDisk a z) / (1 - halfPlaneToDisk a z)) : Prop
+but is expected to have type
+  halfPlaneToDisk a z * dslope (fun w => f (↑a * (1 + w) / (1 - w))) 0 (halfPlaneToDisk a z) = f z : Prop

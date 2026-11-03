@@ -1,0 +1,10 @@
+{
+  "lean": "4.19.0",
+  "mathlib": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "original_problem": "https://aimath.org/WWN/polyaschurlax/polyaschurlax.pdf",
+  "original_pdf_sha256": "526a5a9ed0e4cb417034d32b9b5bb57610659b21123f6f4dce3dedde9731df36",
+  "restatement": "https://math.hawaii.edu/home/talks/thesis.pdf",
+  "restatement_pdf_sha256": "bfb96ee15c6e1f9ef864b55f322dabb3277fbb8169eb6155cf7d73cc53945ff3",
+  "custom_modules": 22,
+  "author_frozen_manifest_sha256": "861ddf010df9615f347c1fb5ef784b5054291b9ddbe4bb0c2b894204d4c7b87b"
+}

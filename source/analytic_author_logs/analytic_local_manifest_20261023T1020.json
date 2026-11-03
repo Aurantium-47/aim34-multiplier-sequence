@@ -1,0 +1,96 @@
+{
+  "RadicalInterpolationObstruction": {
+    "path": "<RESEARCH_ROOT>/aim34_analytic_lean/RadicalInterpolationObstruction.lean",
+    "sha256": "169f4beb421c4c921925506b405c6e50957f2fce48504c4318d19a47b89625e4",
+    "imports": [
+      "RadicalBranchObstruction"
+    ],
+    "olean_sha256": "4f94534bf12f0698c175c99f1729b6274490d32f191e9df34e3f126018561645"
+  },
+  "RadicalBranchObstruction": {
+    "path": "<RESEARCH_ROOT>/aim34_analytic_lean/RadicalBranchObstruction.lean",
+    "sha256": "67778bf829c47d5d8dadcda3f4e5faef1104d772cdd2f0ea22b5e778caf597f5",
+    "imports": [
+      "RadicalPowerAnalytic",
+      "Mathlib.Analysis.Complex.RealDeriv",
+      "Mathlib.Analysis.SpecialFunctions.Sqrt",
+      "Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics"
+    ],
+    "olean_sha256": "731bec8055cac7bfd85ed4b50015dff5a92d2e05a7a83d78d307f26c3ca141b4"
+  },
+  "RadicalPowerAnalytic": {
+    "path": "<RESEARCH_ROOT>/aim34_analytic_lean/RadicalPowerAnalytic.lean",
+    "sha256": "3ffdffdd60c7aa0c6f2432a07e551f3ea4e18078ac5372c8efa5c341450488e9",
+    "imports": [
+      "ThreeQuarterDamping",
+      "NewtonInterpolation",
+      "Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv",
+      "Mathlib.Algebra.Order.Floor.Semiring"
+    ],
+    "olean_sha256": "44492601ac8d63e1abd78e44a682b84095f2464534a7f738b2dc035cc9330417"
+  },
+  "ThreeQuarterDamping": {
+    "path": "<RESEARCH_ROOT>/aim34_analytic_lean/ThreeQuarterDamping.lean",
+    "sha256": "451b3e7110749f227d9eb2bb26e731cca035cdd1648cd40adf0a45e26a3f1e97",
+    "imports": [
+      "IntegerZeroUniqueness",
+      "Mathlib.Analysis.SpecialFunctions.Pow.Deriv",
+      "Mathlib.Analysis.SpecialFunctions.Pow.Real"
+    ],
+    "olean_sha256": "7bf577700674ea4facee676c2e32f3ec1f7651c5aa0a763644e6691c4aeacc8d"
+  },
+  "IntegerZeroUniqueness": {
+    "path": "<RESEARCH_ROOT>/aim34_analytic_lean/IntegerZeroUniqueness.lean",
+    "sha256": "4691ba4fb1da89f97857b38e12971d06d9487a414ece58b265be8ad29a36bada",
+    "imports": [
+      "SchwarzHalfPlane"
+    ],
+    "olean_sha256": "43d695cb42774561ee7d900fe70514e6adc225200311f9daae29e1050c801a07"
+  },
+  "SchwarzHalfPlane": {
+    "path": "<RESEARCH_ROOT>/aim34_analytic_lean/SchwarzHalfPlane.lean",
+    "sha256": "a95092d45879ee69688ccb1e5f95fe3b410e4c760ca21a67877f7fab3d13e24b",
+    "imports": [
+      "Mathlib.Analysis.Complex.Schwarz",
+      "Mathlib.Analysis.Analytic.IsolatedZeros",
+      "Mathlib.Tactic.FieldSimp",
+      "Mathlib.Tactic.Linarith",
+      "Mathlib.Tactic.Positivity",
+      "Mathlib.Tactic.NormNum"
+    ],
+    "olean_sha256": "8b9b3a205363120c000ab20ed913a497b3276d87b1fb4404db3a1fa7110aee04"
+  },
+  "NewtonInterpolation": {
+    "path": "<RESEARCH_ROOT>/aim34_analytic_lean/NewtonInterpolation.lean",
+    "sha256": "242167617b271301162cb4372baf0c373163b2b094318d3422653a19fe76b876",
+    "imports": [
+      "NewtonDecay"
+    ],
+    "olean_sha256": "c0b28675720740776d621c0d56e2d11ebdacedd6b2186354066596dde20da763"
+  },
+  "NewtonDecay": {
+    "path": "<RESEARCH_ROOT>/aim34_analytic_lean/NewtonDecay.lean",
+    "sha256": "abf12695feb66bc2371b3bf8e140a6b30ba56408ca037be85ce47955e95432f6",
+    "imports": [
+      "NewtonBasis",
+      "Mathlib.Analysis.SpecialFunctions.Log.Basic",
+      "Mathlib.Analysis.SpecificLimits.Basic"
+    ],
+    "olean_sha256": "60508f82dc7af1cc0dd180726c16f1294125ced491bbf96be0fb774be221984c"
+  },
+  "NewtonBasis": {
+    "path": "<RESEARCH_ROOT>/aim34_analytic_lean/NewtonBasis.lean",
+    "sha256": "4cf6513bae30f8e146be8e2390e3e7755d4b36e1b7366d22ec7337721a7c8c94",
+    "imports": [
+      "Mathlib.Analysis.Complex.LocallyUniformLimit",
+      "Mathlib.Analysis.Calculus.Deriv.Polynomial",
+      "Mathlib.Data.Nat.Choose.Bounds",
+      "Mathlib.Data.Nat.Choose.Cast",
+      "Mathlib.Tactic.FieldSimp",
+      "Mathlib.Tactic.Linarith",
+      "Mathlib.Tactic.Positivity",
+      "Mathlib.Tactic.NormNum"
+    ],
+    "olean_sha256": "35c6e77c46871588cc99a13d0d3ec6029ef8429b717eaca2b71b667d9d3c65e6"
+  }
+}

@@ -1,0 +1,28 @@
+RadicalBranchObstruction.lean:23:4: error: linarith failed to find a contradiction
+case h1.h
+t : ℝ
+ht : 0 < t
+h :
+  HasDerivAt (fun x => Real.exp (√x * Real.log x)) (Real.exp (√t * Real.log t) * (1 / (2 * √t) * Real.log t + √t * t⁻¹))
+    t
+hs : √t ≠ 0
+a✝ : (Real.log t * t + √t * (2 * √t)) * (2 * √t) < (Real.log t + 2) * (2 * √t * t)
+⊢ False failed
+RadicalBranchObstruction.lean:40:16: error: don't know how to synthesize implicit argument 'y'
+  @Tendsto.mono_left ℝ ℝ (fun x => √x) (𝓝 0) (𝓝[?m.12984] 0) (𝓝 √0)
+    (ContinuousAt.tendsto (Continuous.continuousAt Real.continuous_sqrt)) nhdsWithin_le_nhds
+context:
+hv : Tendsto (fun t => √t * Real.log t) (𝓝[>] 0) (𝓝 0)
+hexp : Tendsto (fun t => Real.exp (√t * Real.log t)) (𝓝[>] 0) (𝓝 1)
+hlog : Tendsto (fun t => Real.log t + 2) (𝓝[>] 0) atBot
+hnum : Tendsto (fun x => Real.exp (√x * Real.log x) * (Real.log x + 2)) (𝓝[>] 0) atBot
+⊢ Filter ℝ
+RadicalBranchObstruction.lean:41:8: error: don't know how to synthesize implicit argument 's'
+  @nhdsWithin_le_nhds ℝ UniformSpace.toTopologicalSpace 0 ?m.12984
+context:
+hv : Tendsto (fun t => √t * Real.log t) (𝓝[>] 0) (𝓝 0)
+hexp : Tendsto (fun t => Real.exp (√t * Real.log t)) (𝓝[>] 0) (𝓝 1)
+hlog : Tendsto (fun t => Real.log t + 2) (𝓝[>] 0) atBot
+hnum : Tendsto (fun x => Real.exp (√x * Real.log x) * (Real.log x + 2)) (𝓝[>] 0) atBot
+⊢ Set ℝ
+RadicalBranchObstruction.lean:40:11: error: failed to infer 'have' declaration type

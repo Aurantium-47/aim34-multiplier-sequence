@@ -1,0 +1,25 @@
+RadicalBranchObstruction.lean:23:2: error: linarith failed to find a contradiction
+case h.e'_9.h1.h
+t : ℝ
+ht : 0 < t
+h :
+  HasDerivAt (fun x => Real.exp (√x * Real.log x)) (Real.exp (√t * Real.log t) * (1 / (2 * √t) * Real.log t + √t * t⁻¹))
+    t
+hs : √t ≠ 0
+a✝ :
+  Real.exp (√t * Real.log t) * (Real.log t + 2) * (2 * √t * t) <
+    Real.exp (√t * Real.log t) * (Real.log t * t + √t * (2 * √t)) * (2 * √t)
+⊢ False failed
+RadicalBranchObstruction.lean:29:6: error: unknown constant 'Real.tendsto_log_mul_rpow_nhdsGT_zero'
+RadicalBranchObstruction.lean:34:4: error: type mismatch, term
+  Real.tendsto_log_nhdsGT_zero
+after simplification has type
+  Tendsto Real.log (𝓝[>] 0) atBot : Prop
+but is expected to have type
+  Tendsto (fun t => Real.log t + 2) (𝓝[>] 0) atBot : Prop
+RadicalBranchObstruction.lean:45:2: error: type mismatch, term
+  Tendsto.atBot_mul_atTop₀ hnum hinv
+after simplification has type
+  Tendsto (fun x => Real.exp (√x * Real.log x) * (Real.log x + 2) * ((√x)⁻¹ * 2⁻¹)) (𝓝[>] 0) atBot : Prop
+but is expected to have type
+  Tendsto radicalRealDerivative (𝓝[>] 0) atBot : Prop

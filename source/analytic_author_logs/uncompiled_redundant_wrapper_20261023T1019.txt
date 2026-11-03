@@ -1,0 +1,22 @@
+import RadicalInterpolationObstruction
+import AIMFamilyGrowthDraft
+
+noncomputable section
+namespace AIM34
+
+/-- The literal shifted-radical family has no nonnegative Newton representation.
+The entire interpolation, its growth, the damping uniqueness theorem, analytic
+continuation, and the endpoint obstruction are all discharged by proved lemmas.
+The actual family's subexponential estimate is the independently compiled real
+estimate, rather than an extra hypothesis. -/
+theorem no_nonnegative_newton_representation_shiftedRadicalPower
+    {m : ℝ} (hm : 0 < m) {d : ℕ → ℝ}
+    (hd : ∀ r, 0 ≤ d r) (hinv : NewtonInversion (shiftedRadicalPower m) d) : False := by
+  have hsub : SubexponentialUpper (shiftedRadicalPower m) :=
+    shiftedRadicalPower_subexponential hm
+  obtain ⟨H, hH, hn, C, hC, hb⟩ := entire_newton_interpolation_and_growth hd hinv hsub
+  apply no_entire_radicalPower_interpolant hm hC hH
+  · simpa only [shiftedRadicalPower] using hn
+  · simpa only [shiftedRadicalPower] using hb
+
+end AIM34

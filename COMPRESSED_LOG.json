@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "scope": "Lossless storage transformation of one public audit log; no proof or other source file changed.",
+  "original_path": "source/independent_review/logs/023_IndependentSemanticAudit.log",
+  "compressed_path": "source/independent_review/logs/023_IndependentSemanticAudit.log.gz",
+  "original_size": 28573132,
+  "compressed_size": 3713906,
+  "original_sha256": "020f5a6690a716c996732e896a74a08c9428313987ecca3b0d945c0800ba81fa",
+  "gzip_sha256": "5ab1c2257a3db5809fe9ee3f305ada889e78b3a48b2da853b54bcf7d6048b93a",
+  "gzip_settings": {
+    "filename": "",
+    "mtime": 0,
+    "compression_level": 9
+  },
+  "historical_manifest_semantics": "Original source/SHA256SUMS and source/independent_review/SHA256SUMS.json refer to decompressed filenames and bytes; restore before invoking original verification scripts. PUBLIC_COPY_MAP.json retains its six normalized-log semantics independently of this compression.",
+  "compression_environment": {
+    "python": "3.12.14",
+    "zlib_compile": "1.3.2",
+    "zlib_runtime": "1.3.2"
+  }
+}

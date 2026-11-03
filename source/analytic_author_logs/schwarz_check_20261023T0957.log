@@ -1,0 +1,4 @@
+SchwarzHalfPlane.lean:51:2: warning: try 'simp at hw' instead of 'simpa using hw'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+SchwarzHalfPlane.lean:77:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`

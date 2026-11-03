@@ -1,0 +1,6 @@
+NewtonBasis.lean:23:67: error: unsolved goals
+r : ℕ
+z : ℂ
+hf : ↑r.factorial ≠ 0
+hr : ↑r + 1 ≠ 0
+⊢ ↑r.factorial * (↑r + 1) = (↑r + 1) * ↑r.factorial ∨ (∏ j ∈ Finset.range r, (z - ↑j)) * (z - ↑r) = 0
